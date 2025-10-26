@@ -1,0 +1,86 @@
+Merged datasets loaded successfully.
+Training models on the original datasets.
+
+Training model with 10 epochs.
+source_dataloader_name: organamnist
+Starting training
+Epoch: 1/10, Loss: 0.1274, Val Loss: 0.0901, source: organamnist
+Epoch: 2/10, Loss: 0.0723, Val Loss: 0.0661, source: organamnist
+Epoch: 3/10, Loss: 0.0515, Val Loss: 0.1039, source: organamnist
+Epoch: 4/10, Loss: 0.0417, Val Loss: 0.0816, source: organamnist
+Epoch: 5/10, Loss: 0.0522, Val Loss: 0.1594, source: organamnist
+Epoch: 6/10, Loss: 0.0380, Val Loss: 0.0421, source: organamnist
+Epoch: 7/10, Loss: 0.0518, Val Loss: 0.0585, source: organamnist
+Epoch: 8/10, Loss: 0.0105, Val Loss: 0.0780, source: organamnist
+Epoch: 9/10, Loss: 0.0497, Val Loss: 0.0739, source: organamnist
+Epoch: 10/10, Loss: 0.0411, Val Loss: 0.1017, source: organamnist
+Training completed
+Training model with 10 epochs.
+source_dataloader_name: organcmnist
+Starting training
+Epoch: 1/10, Loss: 0.2405, Val Loss: 0.1662, source: organcmnist
+Epoch: 2/10, Loss: 0.1014, Val Loss: 0.1581, source: organcmnist
+Epoch: 3/10, Loss: 0.0491, Val Loss: 0.1187, source: organcmnist
+Epoch: 4/10, Loss: 0.0537, Val Loss: 0.1602, source: organcmnist
+Epoch: 5/10, Loss: 0.0461, Val Loss: 0.1410, source: organcmnist
+Epoch: 6/10, Loss: 0.0377, Val Loss: 0.0988, source: organcmnist
+Epoch: 7/10, Loss: 0.0202, Val Loss: 0.1729, source: organcmnist
+Epoch: 8/10, Loss: 0.0328, Val Loss: 0.1800, source: organcmnist
+Epoch: 9/10, Loss: 0.0246, Val Loss: 0.1539, source: organcmnist
+Epoch: 10/10, Loss: 0.0180, Val Loss: 0.2408, source: organcmnist
+Training completed
+Training model with 10 epochs.
+source_dataloader_name: organsmnist
+Starting training
+Epoch: 1/10, Loss: 0.4334, Val Loss: 0.3171, source: organsmnist
+Epoch: 2/10, Loss: 0.1917, Val Loss: 0.3089, source: organsmnist
+Epoch: 3/10, Loss: 0.1503, Val Loss: 0.2611, source: organsmnist
+Epoch: 4/10, Loss: 0.1263, Val Loss: 0.1761, source: organsmnist
+Epoch: 5/10, Loss: 0.1091, Val Loss: 0.3195, source: organsmnist
+Epoch: 6/10, Loss: 0.1006, Val Loss: 0.3455, source: organsmnist
+Epoch: 7/10, Loss: 0.0797, Val Loss: 1.3324, source: organsmnist
+Epoch: 8/10, Loss: 0.0926, Val Loss: 0.4363, source: organsmnist
+Epoch: 9/10, Loss: 0.0857, Val Loss: 0.2337, source: organsmnist
+Epoch: 10/10, Loss: 0.0787, Val Loss: 0.2210, source: organsmnist
+Training completed
+
+Models trained successfully.
+Evaluating the trained models on the test datasets.
+
+
+Models evaluated successfully.
+testing the tent adaptation
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Initializing Tent adaptation module.
+Experiment logs saved successfully.

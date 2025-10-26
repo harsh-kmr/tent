@@ -1,0 +1,257 @@
+Merged datasets loaded successfully.
+Training models on the original datasets.
+
+Training model with 10 epochs.
+source_dataloader_name: organamnist
+Starting training
+Epoch: 1/10, Loss: 0.1333, Val Loss: 0.0696, source: organamnist
+Epoch: 2/10, Loss: 0.0695, Val Loss: 0.1215, source: organamnist
+Epoch: 3/10, Loss: 0.0487, Val Loss: 0.1386, source: organamnist
+Epoch: 4/10, Loss: 0.0493, Val Loss: 0.1433, source: organamnist
+Epoch: 5/10, Loss: 0.0624, Val Loss: 0.1431, source: organamnist
+Epoch: 6/10, Loss: 0.0470, Val Loss: 0.3514, source: organamnist
+Epoch: 7/10, Loss: 0.0440, Val Loss: 0.0597, source: organamnist
+Epoch: 8/10, Loss: 0.0718, Val Loss: 0.8412, source: organamnist
+Epoch: 9/10, Loss: 0.0580, Val Loss: 0.0656, source: organamnist
+Epoch: 10/10, Loss: 0.0442, Val Loss: 0.0711, source: organamnist
+Training completed
+Training time: 39.38 seconds for 10 epochs on dataset organamnist with 34561 samples
+Training model with 10 epochs.
+source_dataloader_name: organcmnist
+Starting training
+Epoch: 1/10, Loss: 0.2615, Val Loss: 0.1494, source: organcmnist
+Epoch: 2/10, Loss: 0.0898, Val Loss: 0.1052, source: organcmnist
+Epoch: 3/10, Loss: 0.0653, Val Loss: 0.2150, source: organcmnist
+Epoch: 4/10, Loss: 0.0611, Val Loss: 0.1331, source: organcmnist
+Epoch: 5/10, Loss: 0.0395, Val Loss: 0.1338, source: organcmnist
+Epoch: 6/10, Loss: 0.0358, Val Loss: 0.0788, source: organcmnist
+Epoch: 7/10, Loss: 0.0281, Val Loss: 0.0906, source: organcmnist
+Epoch: 8/10, Loss: 0.0165, Val Loss: 0.1244, source: organcmnist
+Epoch: 9/10, Loss: 0.0182, Val Loss: 0.0997, source: organcmnist
+Epoch: 10/10, Loss: 0.0241, Val Loss: 0.1316, source: organcmnist
+Training completed
+Training time: 14.74 seconds for 10 epochs on dataset organcmnist with 12975 samples
+Training model with 10 epochs.
+source_dataloader_name: organsmnist
+Starting training
+Epoch: 1/10, Loss: 0.4068, Val Loss: 0.2200, source: organsmnist
+Epoch: 2/10, Loss: 0.1810, Val Loss: 0.2292, source: organsmnist
+Epoch: 3/10, Loss: 0.1571, Val Loss: 0.2530, source: organsmnist
+Epoch: 4/10, Loss: 0.1259, Val Loss: 0.2922, source: organsmnist
+Epoch: 5/10, Loss: 0.1134, Val Loss: 0.3252, source: organsmnist
+Epoch: 6/10, Loss: 0.0891, Val Loss: 0.2586, source: organsmnist
+Epoch: 7/10, Loss: 0.0853, Val Loss: 0.2574, source: organsmnist
+Epoch: 8/10, Loss: 0.0946, Val Loss: 0.8752, source: organsmnist
+Epoch: 9/10, Loss: 0.0824, Val Loss: 0.2282, source: organsmnist
+Epoch: 10/10, Loss: 0.0731, Val Loss: 0.4339, source: organsmnist
+Training completed
+Training time: 15.86 seconds for 10 epochs on dataset organsmnist with 13932 samples
+
+Models trained successfully.
+Evaluating the trained models on the test datasets.
+
+Testing time: 2.80 seconds for 58830 samples
+Testing time: 1.13 seconds for 23583 samples
+Testing time: 1.19 seconds for 25211 samples
+Testing time: 159.12 seconds for 58830 samples
+Testing time: 5.15 seconds for 58830 samples
+Testing time: 25.17 seconds for 58830 samples
+Testing time: 3.89 seconds for 23583 samples
+Testing time: 2.03 seconds for 23583 samples
+Testing time: 10.34 seconds for 23583 samples
+Testing time: 3.60 seconds for 25211 samples
+Testing time: 2.13 seconds for 25211 samples
+Testing time: 10.88 seconds for 25211 samples
+Testing time: 2.75 seconds for 58830 samples
+Testing time: 1.10 seconds for 23583 samples
+Testing time: 1.18 seconds for 25211 samples
+Testing time: 8.50 seconds for 58830 samples
+Testing time: 4.98 seconds for 58830 samples
+Testing time: 23.95 seconds for 58830 samples
+Testing time: 3.38 seconds for 23583 samples
+Testing time: 2.00 seconds for 23583 samples
+Testing time: 10.11 seconds for 23583 samples
+Testing time: 3.59 seconds for 25211 samples
+Testing time: 2.14 seconds for 25211 samples
+Testing time: 10.63 seconds for 25211 samples
+Testing time: 2.74 seconds for 58830 samples
+Testing time: 1.10 seconds for 23583 samples
+Testing time: 1.18 seconds for 25211 samples
+Testing time: 8.46 seconds for 58830 samples
+Testing time: 4.99 seconds for 58830 samples
+Testing time: 24.05 seconds for 58830 samples
+Testing time: 3.34 seconds for 23583 samples
+Testing time: 2.00 seconds for 23583 samples
+Testing time: 10.39 seconds for 23583 samples
+Testing time: 3.62 seconds for 25211 samples
+Testing time: 2.17 seconds for 25211 samples
+Testing time: 10.81 seconds for 25211 samples
+
+Models evaluated successfully.
+testing the tent adaptation
+Adapting model from organamnist to organcmnist using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 23583 samples
+Adapted model inference time: 0.4854 seconds for 139 batches.
+TENT testing time: 14.20 seconds for 23583 samples
+Adapting model from organamnist to organsmnist using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 25211 samples
+Adapted model inference time: 0.4830 seconds for 139 batches.
+TENT testing time: 15.05 seconds for 25211 samples
+Adapting model from organamnist to organamnist_blured using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 58830 samples
+Adapted model inference time: 0.4923 seconds for 139 batches.
+TENT testing time: 40.04 seconds for 58830 samples
+Adapting model from organamnist to organamnist_gaussian using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 58830 samples
+Adapted model inference time: 0.4818 seconds for 139 batches.
+TENT testing time: 36.18 seconds for 58830 samples
+Adapting model from organamnist to organamnist_poisson using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 58830 samples
+Adapted model inference time: 0.4791 seconds for 139 batches.
+TENT testing time: 55.11 seconds for 58830 samples
+Adapting model from organamnist to organcmnist_blured using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 23583 samples
+Adapted model inference time: 0.4869 seconds for 139 batches.
+TENT testing time: 16.51 seconds for 23583 samples
+Adapting model from organamnist to organcmnist_gaussian using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 23583 samples
+Adapted model inference time: 0.4882 seconds for 139 batches.
+TENT testing time: 15.10 seconds for 23583 samples
+Adapting model from organamnist to organcmnist_poisson using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 23583 samples
+Adapted model inference time: 0.4859 seconds for 139 batches.
+TENT testing time: 23.01 seconds for 23583 samples
+Adapting model from organamnist to organsmnist_blured using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 25211 samples
+Adapted model inference time: 0.5157 seconds for 139 batches.
+TENT testing time: 17.59 seconds for 25211 samples
+Adapting model from organamnist to organsmnist_gaussian using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 25211 samples
+Adapted model inference time: 0.4904 seconds for 139 batches.
+TENT testing time: 16.09 seconds for 25211 samples
+Adapting model from organamnist to organsmnist_poisson using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 25211 samples
+Adapted model inference time: 0.4877 seconds for 139 batches.
+TENT testing time: 24.61 seconds for 25211 samples
+Adapting model from organcmnist to organamnist using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 58830 samples
+Adapted model inference time: 0.2336 seconds for 65 batches.
+TENT testing time: 33.42 seconds for 58830 samples
+Adapting model from organcmnist to organsmnist using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 25211 samples
+Adapted model inference time: 0.2367 seconds for 65 batches.
+TENT testing time: 14.75 seconds for 25211 samples
+Adapting model from organcmnist to organamnist_blured using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 58830 samples
+Adapted model inference time: 0.2461 seconds for 65 batches.
+TENT testing time: 40.10 seconds for 58830 samples
+Adapting model from organcmnist to organamnist_gaussian using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 58830 samples
+Adapted model inference time: 0.2266 seconds for 65 batches.
+TENT testing time: 35.82 seconds for 58830 samples
+Adapting model from organcmnist to organamnist_poisson using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 58830 samples
+Adapted model inference time: 0.2294 seconds for 65 batches.
+TENT testing time: 54.70 seconds for 58830 samples
+Adapting model from organcmnist to organcmnist_blured using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 23583 samples
+Adapted model inference time: 0.2289 seconds for 65 batches.
+TENT testing time: 16.03 seconds for 23583 samples
+Adapting model from organcmnist to organcmnist_gaussian using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 23583 samples
+Adapted model inference time: 0.2380 seconds for 65 batches.
+TENT testing time: 14.59 seconds for 23583 samples
+Adapting model from organcmnist to organcmnist_poisson using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 23583 samples
+Adapted model inference time: 0.2273 seconds for 65 batches.
+TENT testing time: 22.53 seconds for 23583 samples
+Adapting model from organcmnist to organsmnist_blured using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 25211 samples
+Adapted model inference time: 0.2675 seconds for 65 batches.
+TENT testing time: 17.07 seconds for 25211 samples
+Adapting model from organcmnist to organsmnist_gaussian using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 25211 samples
+Adapted model inference time: 0.2438 seconds for 65 batches.
+TENT testing time: 15.56 seconds for 25211 samples
+Adapting model from organcmnist to organsmnist_poisson using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 25211 samples
+Adapted model inference time: 0.2255 seconds for 65 batches.
+TENT testing time: 24.08 seconds for 25211 samples
+Adapting model from organsmnist to organamnist using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 58830 samples
+Adapted model inference time: 0.2424 seconds for 69 batches.
+TENT testing time: 33.49 seconds for 58830 samples
+Adapting model from organsmnist to organcmnist using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 23583 samples
+Adapted model inference time: 0.2401 seconds for 69 batches.
+TENT testing time: 13.78 seconds for 23583 samples
+Adapting model from organsmnist to organamnist_blured using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 58830 samples
+Adapted model inference time: 0.2417 seconds for 69 batches.
+TENT testing time: 39.30 seconds for 58830 samples
+Adapting model from organsmnist to organamnist_gaussian using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 58830 samples
+Adapted model inference time: 0.2424 seconds for 69 batches.
+TENT testing time: 35.87 seconds for 58830 samples
+Adapting model from organsmnist to organamnist_poisson using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 58830 samples
+Adapted model inference time: 0.2427 seconds for 69 batches.
+TENT testing time: 54.79 seconds for 58830 samples
+Adapting model from organsmnist to organcmnist_blured using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 23583 samples
+Adapted model inference time: 0.2525 seconds for 69 batches.
+TENT testing time: 16.28 seconds for 23583 samples
+Adapting model from organsmnist to organcmnist_gaussian using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 23583 samples
+Adapted model inference time: 0.2453 seconds for 69 batches.
+TENT testing time: 14.63 seconds for 23583 samples
+Adapting model from organsmnist to organcmnist_poisson using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 23583 samples
+Adapted model inference time: 0.2485 seconds for 69 batches.
+TENT testing time: 22.56 seconds for 23583 samples
+Adapting model from organsmnist to organsmnist_blured using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 25211 samples
+Adapted model inference time: 0.2447 seconds for 69 batches.
+TENT testing time: 17.12 seconds for 25211 samples
+Adapting model from organsmnist to organsmnist_gaussian using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 25211 samples
+Adapted model inference time: 0.2434 seconds for 69 batches.
+TENT testing time: 15.61 seconds for 25211 samples
+Adapting model from organsmnist to organsmnist_poisson using TENT using Entropy loss.
+Initializing Tent adaptation module.
+TENT adaptation time: 0.00 seconds for 25211 samples
+Adapted model inference time: 0.2448 seconds for 69 batches.
+TENT testing time: 24.08 seconds for 25211 samples
+Experiment logs saved successfully.
