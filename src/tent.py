@@ -34,11 +34,11 @@ class tent(nn.Module):
         
         # Initialize loggers
         if logger is None:
-            self.logger = TextLogger('tent_log.txt')
+            self.logger = TextLogger('logs/tent_log.txt')
         else:
             self.logger = logger
         if experiment_logger is None:
-            self.experiment_logger = CSVLogger('tent_experiment_log.csv')
+            self.experiment_logger = CSVLogger('logs/tent_experiment_log.csv')
         else:
             self.experiment_logger = experiment_logger
         
@@ -272,7 +272,7 @@ class tent(nn.Module):
 
 if __name__ == "__main__":
 
-    log_file = "tent_log.txt"
+    log_file = "logs/tent_log.txt"
     logger = TextLogger(log_file)
     logger.log("Starting Tent adaptation main program.")
 
